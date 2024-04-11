@@ -22,9 +22,9 @@ The Labtainers website, and downloads (including VM appliances with Labtainers p
 [designer-guide]: docs/labdesigner/labdesigner.pdf
 [Papers]: https://nps.edu/web/c3o/labtainers#papers
 
-Distribution created: 04/21/2023 09:01 </br>
-Revision: v1.3.7r </br>
-Commit: 97aad088 </br>
+Distribution created: 11/27/2023 08:11 </br>
+Revision: v1.3.7u </br>
+Commit: 17480149 </br>
 Branch: master </br>
 
 ## Content
@@ -88,6 +88,15 @@ of new labs.  For those, run ./update-designer.sh from the labtainer/trunk/setup
 The installation script and the update-designer.sh script set environment variables,
 so you may want to logout/login, or start a new bash shell before using Labtainers the
 first time.
+
+November 27, 2023
+- Add Google Cloud Platform option for ubuntu22 on ec2 machine.
+
+September 18, 2023
+- Previous fix implementation was flawed.
+
+August 8, 2023
+- Handle change to DockerHub image json format.  Thanks Kees!
 
 April 17, 2023
 - Force use latest lab version, e.g., iptables2 intead of iptables.  Fix tab completion to only display latest. (Issue #77)
